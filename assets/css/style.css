@@ -1,0 +1,148 @@
+body{
+	background-image: url("../images/diamond-fill.jpg");
+}
+
+
+
+#gem-title{
+	text-align: center;
+	background-color: inherit !important;
+}
+
+
+
+#title-container h1{
+	font-size:125pt;
+	color:darkgrey;
+	text-shadow: -3px 0 #000000,0 3px #000000,3px 0 #000000,0 -3px #000000;
+}
+
+#top-section p{
+	background-image: url("../images/ruby-fill.jpg");
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+	font-size: 27pt;
+	text-align: center;
+
+
+}
+
+#instructions{
+	background-image: url("../images/ruby-fill.jpg");
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+	font-size: 45pt;
+	text-align: center;
+	text-shadow: -3px 0 #000000,0 3px #000000,3px 0 #000000,0 -3px #000000;
+}
+
+#game-board{
+	padding: 0px 0px 25px 0px;
+}
+
+#scoreboard{
+	margin-bottom:25px;
+}
+
+#target-number{
+	font-size: 110pt;
+}
+
+#gameboard-left{
+	background-image: url("../images/sapphire-fill.jpg");
+	min-height: 325px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+	text-shadow: -3px 0 #000000,0 3px #000000,3px 0 #000000,0 -3px #000000;
+
+}
+
+#gameboard-right{
+	background-image: url("../images/sapphire-fill.jpg");
+	min-height: 325px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+	text-shadow: -3px 0 #000000,0 3px #000000,3px 0 #000000,0 -3px #000000;
+	}
+
+#score-tally{
+	background-image: url("../images/emerald-fill.jpg");
+	padding-top: 25px;
+	text-align: center;
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+	font-size: 27pt;
+
+}
+
+#gem-total{
+	padding: 0px 0px 25px 0px;
+}
+
+#user-score{
+	background-image: url("../images/ruby-fill.jpg");
+	padding-top: 25px;
+	text-align:center;
+	text-shadow: -3px 0 #000000,0 3px #000000,3px 0 #000000,0 -3px #000000;
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+	font-size: 36pt;
+	padding-top: 25px;
+}
+#guesses-remaining{
+	font-size: 36pt;
+	text-shadow: -3px 0 #000000,0 3px #000000,3px 0 #000000,0 -3px #000000;
+	padding-bottom: 25px;
+}
+
+
+#gem-images{
+	width:100%;
+}
+
+.opening-text{
+	font-size: 36pt;
+	color:white;
+}
+
+#ruby{
+	background-image: url("../images/ruby_emer.jpg");
+	height:258px;
+	width: 249px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #560101;
+}
+
+#diamond{
+	background-image: url("../images/diamond_emer.jpg");
+	height:258px;
+	width: 249px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+}
+
+#sapphire{
+	background-image: url("../images/sapphire_emer.jpg");
+	height:258px;
+	width: 249px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: darkblue;
+}
+
+#emerald{
+	background-image: url("../images/emerald_emer.jpg");
+	height:258px;
+	width: 249px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: darkgreen;
+}
