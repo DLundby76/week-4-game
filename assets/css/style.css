@@ -92,7 +92,7 @@ body{
 	border-style: solid;
 	border-width: 5px;
 	border-color: white;
-	font-size: 36pt;
+	font-size: 72pt;
 	padding-top: 25px;
 }
 #guesses-remaining{
@@ -102,19 +102,18 @@ body{
 }
 
 
-#gem-images{
-	width:100%;
-}
-
 .opening-text{
 	font-size: 36pt;
 	color:white;
 }
 
+#top-section h1 {
+	font-size:54pt;
+}
+
 #ruby{
 	background-image: url("../images/ruby_emer.jpg");
-	height:258px;
-	width: 249px;
+	min-height:258px;
 	border-style: solid;
 	border-width: 5px;
 	border-color: #560101;
@@ -122,8 +121,7 @@ body{
 
 #diamond{
 	background-image: url("../images/diamond_emer.jpg");
-	height:258px;
-	width: 249px;
+	min-height:258px;
 	border-style: solid;
 	border-width: 5px;
 	border-color: black;
@@ -131,8 +129,7 @@ body{
 
 #sapphire{
 	background-image: url("../images/sapphire_emer.jpg");
-	height:258px;
-	width: 249px;
+	min-height:258px;
 	border-style: solid;
 	border-width: 5px;
 	border-color: darkblue;
@@ -140,8 +137,7 @@ body{
 
 #emerald{
 	background-image: url("../images/emerald_emer.jpg");
-	height:258px;
-	width: 249px;
+	min-height:258px;
 	border-style: solid;
 	border-width: 5px;
 	border-color: darkgreen;

@@ -12,7 +12,12 @@ $(document).ready(function() {
 	losses = 0
 
 	var numberSelection = [1, 5, 10, 25];
-	var clickSound = new Audio("assets/sounds/applause.mp3")
+	var rubyClick = new Audio("assets/sounds/pin-drop.mp3")
+	var diamondClick = new Audio("assets/sounds/hitting-metal.mp3")
+	var emeraldClick = new Audio("assets/sounds/glass-ping.mp3")
+	var sapphireClick = new Audio("assets/sounds/ting.mp3")
+	var winSound = new Audio("assets/sounds/applause.mp3")
+	var lossSound = new Audio("assets/sounds/evil-laugh.mp3")
 
 console.log("hello world")
 
@@ -47,10 +52,18 @@ function userScoreIncrease(amount){
 
 	if(targetNumber === userTotal){
 		wins ++
-		newGame()
+		setTimeout(function() {
+			winSound.play();
+			newGame();
+		}, 1500)
+		// winSound.play()
+		// newGame()
 	} else if(targetNumber < userTotal){
 		losses ++
-		newGame()
+		setTimeout(function() {
+			lossSound.play();
+			newGame();
+		}, 1500)
 	} else{
 
 	}
@@ -83,22 +96,25 @@ function shuffle(array) {
 $("#ruby-click").on('click', function(event){
 	event.preventDefault()
 	userScoreIncrease(ruby)
-	clickSound.play()
+	rubyClick.play()
 })
 
 $("#sapphire-click").on('click', function(event){
 	event.preventDefault()
 	userScoreIncrease(sapphire)
+	sapphireClick.play()
 })
 
 $("#emerald-click").on('click', function(event){
 	event.preventDefault()
 	userScoreIncrease(emerald)
+	emeraldClick.play()
 })
 
 $("#diamond-click").on('click', function(event){
 	event.preventDefault()
 	userScoreIncrease(diamond)
+	diamondClick.play()
 })
 
 newGame()
